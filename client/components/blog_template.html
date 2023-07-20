@@ -1,0 +1,39 @@
+
+<blog_template
+class="flex flex-col"
+>
+    <script props>
+        let name = "DogBeater";
+        let isVerified = false;
+        let UImg = "https://avatars.githubusercontent.com/u/70300600?v=4";
+        let title = "My Dog loves my shoes";
+        let ReadTime = "5 min read";
+    </script>
+    ```
+     Use props {{name}} to access the props  in the html this isnt optional
+     because we cant rely on js all the time!
+
+    ```
+     
+    <div class="card rounded   bg-base-100 border border-b-slate-200 border-t-0 border-l-0 border-r-0 shadow-slate-300">
+        <div class="card-body">
+          <h2 class="card-title gap-5 flex flex-row">
+            <img
+            src="{{UImg}}"
+             class="rounded-full w-8 h-8"
+             alt="avatar"
+             />
+             <p class="text-lg font-medium font-mono">{{name}}</p>
+             
+          </h2>
+        <div class="mt-2 font-mono">
+            <h6 class="card-subtitle   font-bold text-lg">{{title}}</h6>
+            <p class="gap-2 mt-2 text-sm">If a dog chews shoes whose shoes does he choose?</p>
+            <p class="text-sm mt-2 text-gray-500">{{ReadTime}}</p>
+        </div>
+        </div>
+    </div>
+  
+   
+
+</blog_template>
