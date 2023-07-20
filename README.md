@@ -1,4 +1,4 @@
-# Coder's Cove Website ✌️
+# Onlyblogs ✌️
 
 ### Standards
 
