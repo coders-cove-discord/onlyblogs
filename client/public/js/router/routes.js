@@ -17,6 +17,26 @@ app.get('/', (req,res)=>{
 app.on('/', (req,res)=>{
     res.render('main')
 })
+app.get('/login', (req,res)=>{
+  res.return()
+  res.render('login')
+  res.return()
+})
+app.on('/login', (req,res)=>{
+  res.return()
+  res.render('login')
+  res.return()
+})
+app.get('/register', (req,res)=>{
+  res.return()
+  res.render('register')
+  res.return()
+})
+app.on('/register', (req,res)=>{
+  res.return()
+  res.render('register')
+  res.return()
+})
 app.root('/', (req,res)=>{
     res.render('main')
 })
